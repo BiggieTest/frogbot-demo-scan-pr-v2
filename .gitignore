@@ -1,1 +1,5 @@
-_pr_payload/
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+.env
