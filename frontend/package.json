@@ -1,12 +1,17 @@
 {
   "name": "frogbot-demo-scan-pr-frontend",
-  "version": "0.1.0",
-  "description": "Clean baseline — PR will add vulnerable code and deps",
+  "version": "0.2.0",
+  "description": "PR adds vulnerable code and deps",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
   },
   "dependencies": {
-    "express": "4.19.2"
+    "express": "4.16.0",
+    "lodash": "4.17.11",
+    "minimist": "1.2.0",
+    "axios": "0.21.0",
+    "handlebars": "4.0.13",
+    "debug": "2.6.8"
   }
 }

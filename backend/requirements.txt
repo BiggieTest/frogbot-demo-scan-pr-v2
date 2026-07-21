@@ -1,3 +1,6 @@
-# Clean baseline — up-to-date, no known CVEs at time of writing
-flask==3.0.3
-requests==2.32.3
+# PR downgrades / adds vulnerable deps — Frogbot should flag these
+flask==0.12.3
+pyyaml==5.1
+requests==2.19.1
+jinja2==2.10
+urllib3==1.24.1
