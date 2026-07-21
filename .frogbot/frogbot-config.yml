@@ -1,0 +1,21 @@
+params:
+  git:
+    repoName: frogbot-demo-scan-pr
+    branches:
+      - main
+  scan:
+    includeAllVulnerabilities: true
+    failOnSecurityIssues: false
+    projects:
+      - installCommandName: pip
+        installCommandArgs: ["install", "-r", "requirements.txt"]
+        workingDirs:
+          - backend
+        useWrapper: false
+      - installCommandName: npm
+        installCommandArgs: ["install"]
+        workingDirs:
+          - frontend
+        useWrapper: false
+  jfrogPlatform:
+    watches: []
