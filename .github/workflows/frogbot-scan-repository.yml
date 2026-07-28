@@ -20,6 +20,11 @@ jobs:
       matrix:
         branch: ["main"]
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ matrix.branch }}
+
       - uses: jfrog/frogbot@v3
         env:
           JF_URL: ${{ secrets.JF_URL }}
