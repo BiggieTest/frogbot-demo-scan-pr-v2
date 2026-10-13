@@ -26,7 +26,7 @@ requests==2.32.3
     # via -r requirements.txt
 urllib3==2.6.3
     # via requests
-werkzeug==3.1.8
+werkzeug==3.1.9
     # via flask
 zipp==3.23.1
     # via importlib-metadata
