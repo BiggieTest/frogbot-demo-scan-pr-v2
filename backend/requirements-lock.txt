@@ -2,7 +2,7 @@
 #    uv pip compile requirements.txt --python-version 3.9 -o requirements-lock.txt
 blinker==1.9.0
     # via flask
-certifi==2026.6.17
+certifi==2026.10.19
     # via requests
 charset-normalizer==3.4.9
     # via requests
